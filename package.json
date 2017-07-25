@@ -1,6 +1,6 @@
 {
   "name": "koa2-validation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A koa2 middleware to validate the request with Joi.",
   "main": "index.js",
   "scripts": {
