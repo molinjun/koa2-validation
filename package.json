@@ -1,0 +1,43 @@
+{
+  "name": "koa2-validation",
+  "version": "0.0.1",
+  "description": "A koa2 middleware to validate the request with Joi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.test.js"
+    ],
+    "concurrency": 25,
+    "serial": true,
+    "failFast": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gedennis/koa2-validation.git"
+  },
+  "keywords": [
+    "koa2",
+    "joi",
+    "validation"
+  ],
+  "author": "Dennis.ge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gedennis/koa2-validation/issues"
+  },
+  "homepage": "https://github.com/gedennis/koa2-validation#readme",
+  "dependencies": {
+    "joi": "^10.6.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "ava": "^0.19.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "supertest": "^3.0.0"
+  }
+}
