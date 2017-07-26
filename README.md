@@ -9,8 +9,8 @@ Install with npm:
 ```sh
 npm i -S koa2-validation
 ```
-Then, you can use koa2-valition to configure the validation schema in routes. The example below is to 
-define three validation about user.  
+Then, you can use koa2-valition to configure the validation schemas in routes. The example below is to 
+define three validations about user.  
 **file**: [`test/lib/server.js`](test/lib/server.js)
 ```js
 const http = require('http');
@@ -79,11 +79,11 @@ exports.addUser = async (ctx) => {
   ctx.body = { success: true, data: users };
 };
 ```
-The validation schema is followed by [Joi](https://github.com/hapijs/joi). You can define more effective schema 
+The validation schema is followed by [Joi](https://github.com/hapijs/joi). You can define more effective schemas 
 based on joi docs.
 
-## error handler
-When bad request, koa2-validation has catched the error, and throw a Error instance, which has an attr **status** 400.
+## Error handler
+When bad request, koa2-validation has catched the error, and throw a standard Error instance, which has an attr **status** 400.
 ```js
 app.use(async (ctx, next) => {
   try {
@@ -97,5 +97,7 @@ app.use(async (ctx, next) => {
   }
 });
 ```
-
+## Example
+In the test foler, I made a demo about user management. You can get how to use koa2-validation from it.
+If you have some questions, you can post an issue.
 
