@@ -2,7 +2,7 @@
 [![npm](https://img.shields.io/npm/dt/koa2-validation.svg)](https://www.npmjs.com/package/koa2-validation)
 [![Build Status](https://api.travis-ci.org/gedennis/koa2-validation.svg?branch=master&name=dennis)](https://travis-ci.org/gedennis/koa2-validation)  
 koa2-validation is a koa2 middleware to validate the request with Joi. Support `body`, `params`, `query` for Now.  
-Inspired by [express-validaion](https://github.com/andrewkeig/express-validation).
+Inspired by [express-validation](https://github.com/andrewkeig/express-validation).
 
 ## Usage
 Install with npm:
