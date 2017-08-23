@@ -1,10 +1,11 @@
 {
   "name": "koa2-validation",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A koa2 middleware to validate the request with Joi.",
   "main": "index.js",
   "scripts": {
-    "test": "ava -v"
+    "test": "ava -v",
+    "release": "standard-version"
   },
   "ava": {
     "files": [
@@ -38,6 +39,7 @@
     "koa": "^2.3.0",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.2.1",
+    "standard-version": "^4.2.0",
     "supertest": "^3.0.0"
   }
 }
