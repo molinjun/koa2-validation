@@ -4,7 +4,9 @@
   "description": "A koa2 middleware to validate the request with Joi.",
   "main": "index.js",
   "scripts": {
-    "test": "ava -v",
+    "test": "nyc ava -v",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "coverage_local": "nyc report --reporter=html",
     "release": "standard-version"
   },
   "ava": {
@@ -36,9 +38,11 @@
   },
   "devDependencies": {
     "ava": "^0.19.0",
+    "coveralls": "^2.13.1",
     "koa": "^2.3.0",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.2.1",
+    "nyc": "^11.1.0",
     "standard-version": "^4.2.0",
     "supertest": "^3.0.0"
   }
