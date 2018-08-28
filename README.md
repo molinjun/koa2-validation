@@ -2,6 +2,8 @@
 [![npm](https://img.shields.io/npm/dt/koa2-validation.svg)](https://www.npmjs.com/package/koa2-validation)
 [![Build Status](https://api.travis-ci.org/gedennis/koa2-validation.svg?branch=master&name=dennis)](https://travis-ci.org/gedennis/koa2-validation) 
 [![Coverage Status](https://coveralls.io/repos/github/gedennis/koa2-validation/badge.svg?branch=master)](https://coveralls.io/github/gedennis/koa2-validation?branch=master)  
+
+<a href="https://communityinviter.com/apps/koa-js/koajs" rel="KoaJs Slack Community">![KoaJs Slack](https://img.shields.io/badge/Koa.Js-Slack%20Channel-Slack.svg?longCache=true&style=for-the-badge)</a>
  
 koa2-validation is a koa2 middleware to validate the request with Joi. Support `body`, `params`, `query` for Now.  
 Inspired by [express-validation](https://github.com/andrewkeig/express-validation).
