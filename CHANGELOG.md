@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/gedennis/koa2-validation/compare/v0.1.0...v0.2.0) (2018-11-20)
+
+
+### Features
+
+* **security:** update all modules for security ([fc86bea](https://github.com/gedennis/koa2-validation/commit/fc86bea))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2017-08-23)
 
