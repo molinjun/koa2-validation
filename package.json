@@ -44,6 +44,6 @@
     "koa-router": "^7.4.0",
     "nyc": "^13.1.0",
     "standard-version": "^4.4.0",
-    "supertest": "^3.3.0"
+    "supertest": "^4.0.0"
   }
 }
