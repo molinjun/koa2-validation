@@ -42,7 +42,7 @@
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
-    "nyc": "^13.1.0",
+    "nyc": "^14.0.0",
     "standard-version": "^4.4.0",
     "supertest": "^3.3.0"
   }
