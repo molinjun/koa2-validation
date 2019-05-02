@@ -37,12 +37,12 @@
   "homepage": "https://github.com/gedennis/koa2-validation#readme",
   "dependencies": {
     "@hapi/joi": "^15.0.1",
-    "esm": "^3.2.22",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
     "ava": "^1.4.1",
     "coveralls": "^3.0.2",
+    "esm": "^3.2.22",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
