@@ -54,7 +54,7 @@ You still need to define the validation schema in your controllers, as follows:
 **file**: [`test/lib/user.js`](test/lib/user.js)
 ```js
 const _ = require('lodash');
-const Joi = require('joi');
+const Joi = require('@hapi/joi');
 
 const v = {};
 exports.v = v;

@@ -1,5 +1,5 @@
 const _ = require('lodash');
-const Joi = require('joi');
+const Joi = require('@hapi/joi');
 
 const v = {};
 exports.v = v;

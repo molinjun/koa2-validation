@@ -1,6 +1,6 @@
 {
   "name": "koa2-validation",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A koa2 middleware to validate the request with Joi.",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,9 @@
   "ava": {
     "files": [
       "test/**/*.test.js"
+    ],
+    "require": [
+      "esm"
     ],
     "concurrency": 25,
     "serial": true,
@@ -33,16 +36,17 @@
   },
   "homepage": "https://github.com/gedennis/koa2-validation#readme",
   "dependencies": {
-    "joi": "^14.1.0",
+    "@hapi/joi": "^15.0.1",
+    "esm": "^3.2.22",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "ava": "^1.0.1",
+    "ava": "^1.4.1",
     "coveralls": "^3.0.2",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
-    "nyc": "^13.1.0",
+    "nyc": "^14.1.0",
     "standard-version": "^4.4.0",
     "supertest": "^3.3.0"
   }
