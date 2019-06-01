@@ -37,7 +37,7 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "ava": "^1.0.1",
+    "ava": "^2.0.0",
     "coveralls": "^3.0.2",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
