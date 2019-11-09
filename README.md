@@ -8,6 +8,21 @@
 koa2-validation is a koa2 middleware to validate the request with Joi. Support `body`, `params`, `query` for Now.  
 Inspired by [express-validation](https://github.com/andrewkeig/express-validation).
 
+## Version Tips
+As new version [Joi](https://hapi.dev/family/joi/?v=16.1.7) has some breaking changes, some old schema is not workable. To avoid the big change for using legacy koa2-validation version, you need to update your code as follows, if you want to use new version Joi.
+
+```
+// default
+const validate = require('koa2-validation');
+
+// with specific Joi 
+const joi = require("@hapi/joi");
+const Validation = require("koa2-validation").Validation;
+const validator = new Validation(joi);
+const validate = validator.validate.bind(validator);
+```
+> Please use the same Joi version when define your joi schema!!!
+
 ## Usage
 Install with npm:
 ```sh

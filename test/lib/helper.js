@@ -1,21 +1,27 @@
-const _ = require('lodash');
-const request = require('supertest');
+const _ = require("lodash");
+const request = require("supertest");
 
-const app = require('./server');
-
-exports.request = (options, query) => {
-  const opts = _.isString(options) ? { url: options, query } : options;
-  const method = opts.method || 'get';
-  let req = request(app)[method](opts.url);
-  if (opts.data) {
-    req = req.send(opts.data);
+class Helper {
+  constructor(app) {
+    this.app = app;
   }
 
-  if (opts.header && _.isObject(opts.header)) {
-    _.each(opts.header, (val, key) => req.set(key, val));
-  }
+  request(options, query) {
+    const opts = _.isString(options) ? { url: options, query } : options;
+    const method = opts.method || "get";
+    let req = request(this.app)[method](opts.url);
+    if (opts.data) {
+      req = req.send(opts.data);
+    }
 
-  return req
-    .query(opts.query || opts.qs || {})
-    .set('Accept', 'application/json');
-};
+    if (opts.header && _.isObject(opts.header)) {
+      _.each(opts.header, (val, key) => req.set(key, val));
+    }
+
+    return req
+      .query(opts.query || opts.qs || {})
+      .set("Accept", "application/json");
+  }
+}
+
+module.exports = Helper;
