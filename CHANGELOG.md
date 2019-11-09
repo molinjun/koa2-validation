@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [1.1.0](https://github.com/gedennis/koa2-validation/compare/v1.0.0...v1.1.0) (2019-11-09)
+
+
+### Features
+
+* **1.1.0:** Adapt to specific Joi Version ([f888706](https://github.com/gedennis/koa2-validation/commit/f88870679409bd6fd66c6281877c16a2eb92d320))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/gedennis/koa2-validation/compare/v0.2.0...v1.0.0) (2018-11-20)
 
