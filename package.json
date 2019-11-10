@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/gedennis/koa2-validation#readme",
   "dependencies": {
-    "@hapi/joi": "15.1.1",
+    "@hapi/joi": "16.1.7",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
@@ -33,7 +33,7 @@
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
-    "standard-version": "^5.0.0",
+    "standard-version": "^7.0.0",
     "supertest": "^4.0.2"
   }
 }
