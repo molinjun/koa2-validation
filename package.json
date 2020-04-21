@@ -28,7 +28,7 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "coveralls": "^3.0.2",
+    "coveralls": "^3.0.12",
     "jest": "^24.9.0",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
